@@ -14,9 +14,9 @@ rum_map.m
 
 ## Show
 This program will find the best path from start position(left) to the goal position(right).
-Instead of giving the information of f(6,6,\ast) states, we give the pixcels of whole picture as a state.
-This is a 30*30 picture which contains 5*5 small white picture as a robot's position.
+Instead of giving the information of 36 states(6 multify 6), we give the pixels of whole picture as a state.
+This is a 900(30 multify 30) pixels of picture which contains 25(5 multify 5) small white picture as a robot's position.
 
 <img src="./picture/start.PNG"  alt="start" align=left />
 <img src="./picture/goal.PNG"  alt="start" align=center />
-f(x1,x2,\ldots,xn)
+
