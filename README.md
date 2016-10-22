@@ -6,7 +6,17 @@ This is a modified implementation of this paper:
 <img src="./picture/paper.PNG"  alt="paper" align=center />
 
 ## Toolbox
-Make sure you have include this toolbox in your path of Matlab
+Before you start, make sure you have included this toolbox in your path of Matlab
 [Deeplearning Tool Box](https://github.com/rasmusbergpalm/DeepLearnToolbox)
 
+## Run
+rum_map.m
 
+## Show
+This program will find the best path from start position(left) to the goal position(right).
+Instead of giving the information of f(6,6,\ast) states, we give the pixcels of whole picture as a state.
+This is a 30*30 picture which contains 5*5 small white picture as a robot's position.
+
+<img src="./picture/start.PNG"  alt="start" align=left />
+<img src="./picture/goal.PNG"  alt="start" align=center />
+f(x1,x2,\ldots,xn)
