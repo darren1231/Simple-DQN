@@ -64,9 +64,10 @@ frame=0;
     epochs=epochs+1;
       [ max_matrix ] = compute_max(net_low,train_experience,success,fail);
       [ net_low ]    = iteration( train_x,max_matrix); 
-      
+    Episode_step=0;  
 while ~(position_x==6 && position_y==6)
     
+    Episode_step = Episode_step+1
     
     if(step>10)
         
@@ -126,9 +127,10 @@ while ~(position_x==6 && position_y==6)
         imshow(I,'InitialMagnification','fit');
         Map(frame)=getframe;
      end
-     disp(['x:' num2str(position_x) '   y:' num2str(position_y)]);
+      disp(['x:' num2str(position_x) '   y:' num2str(position_y)]);
       disp(['step: ' num2str(step)]);   
 end
-
+      disp('')
+      disp(['Episode:' num2str(epochs) '  Step:' num2str(Episode_step) ]);
 end
 %movie2avi(Map,'slow','compression', 'None','FPS',30);
