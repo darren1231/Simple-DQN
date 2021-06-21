@@ -20,3 +20,5 @@ This is a 900(30 multify 30) pixels of picture which contains 25(5 multify 5) sm
 <img src="./picture/start.PNG"  alt="start" align=left />
 <img src="./picture/goal.PNG"  alt="start" align=center />
 
+## animation
+<img src="./picture/Animation.gif"  alt="paper" align=center />

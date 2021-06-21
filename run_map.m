@@ -86,8 +86,8 @@ while ~(position_x==6 && position_y==6)
     frame=frame+1;
     matrix=produce_state_picture( position_x,position_y );
     I=reshape(matrix,30,30);
-    imshow(I);
-    imshow(I,[]); 
+%     imshow(I);
+%     imshow(I,[]); 
     imshow(I,'InitialMagnification','fit');
     Map(frame)=getframe;
        %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
